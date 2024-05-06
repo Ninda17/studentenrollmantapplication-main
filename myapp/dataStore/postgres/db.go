@@ -22,7 +22,7 @@ var Db *sql.DB
 
 // called before main
 func init() {
-	// creating connection string
+	// creating connection
 	db_info := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s", postgres_host, postgres_port, postgres_user, postgres_password, postgres_dbname)
 
 	// fmt.Println(db_info)
